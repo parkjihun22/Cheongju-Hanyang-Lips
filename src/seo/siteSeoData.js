@@ -1,4 +1,4 @@
-const SITE_URL = "https://www.diarivalencia.com";
+const SITE_URL = "https://cheongju-hanyanglips.com";
 
 export const siteSeo = {
   siteName: "청주 한양립스",

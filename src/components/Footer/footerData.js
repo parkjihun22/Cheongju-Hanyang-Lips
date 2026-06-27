@@ -12,7 +12,7 @@ const footerData = {
   familySites: [
     {
       name: "청주 한양립스",
-      url: "https://godeok-sujainhouse.co.kr/",
+      url: "https://cheongju-hanyanglips.com/",
     },
   ],
   links: [
