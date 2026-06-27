@@ -1,24 +1,42 @@
 :root {
+  /* ================================
+     Header 공통 수정 변수
+     - PC와 모바일에서 자주 조정하는 값을 한곳에 모았습니다.
+     - 이 변수값을 바꾸면 아래 연결된 스타일이 함께 바뀝니다.
+  ================================ */
+
+  /* PC 상단 GIF 배너 높이 */
   --top-banner-height: 4.35vw;
+
+  /* PC 상단 메뉴바 높이 */
   --header-height: 4.3vw;
+
+  /* PC 헤더 좌우 여백 */
   --pc-header-padding: 5.8vw;
+
+  /* PC 로고/전화번호 영역 폭 */
   --pc-side-column: 24vw;
 
-  /* 메뉴 전체 폭 조절 */
+  /* PC 메뉴 전체 폭 */
   --pc-menu-width: min(860px, 52vw);
 
-  /* 현재 PC 메뉴 개수 */
-  --pc-menu-count: 7;
+  /* PC 메뉴 개수: 메뉴가 7개면 7, 8개면 8로 변경 */
+  --pc-menu-count: 8;
 
+  /* 모바일 GIF 배너 높이 */
   --mobile-banner-height: 9vw;
+
+  /* 모바일 헤더 높이 */
   --mobile-header-height: 15vw;
 
-  --brand-blue: #352751;
+  /* 브랜드 컬러 */
+  --brand-blue: #01496f;
   --brand-navy: #06243b;
   --brand-gold: #d4af37;
   --brand-white: #ffffff;
 }
 
+/* Header 전체 래퍼 */
 .headerWrapper {
   position: relative;
   width: 100%;
@@ -26,6 +44,7 @@
   overflow: visible;
 }
 
+/* 상단 GIF 배너 */
 .gifBanner {
   position: relative;
   top: 0;
@@ -34,7 +53,7 @@
   width: 100%;
   height: var(--top-banner-height);
 
-  background: linear-gradient(90deg, #352751 0%, #352751 52%, #352751 100%);
+  background: linear-gradient(90deg, #014b70 0%, #06324d 52%, #041f34 100%);
 
   display: flex;
   align-items: center;
@@ -44,6 +63,7 @@
   border-bottom: 1px solid rgba(255, 255, 255, 0.16);
 }
 
+/* 상단 GIF 이미지 */
 .gifBanner img {
   width: 61vw;
   max-width: 1100px;
@@ -52,6 +72,7 @@
   display: block;
 }
 
+/* PC 메뉴바 */
 .headerInitial {
   position: relative;
 
@@ -65,12 +86,13 @@
   column-gap: 2vw;
 
   background:
-    linear-gradient(90deg, rgba(46, 18, 71, 0.96) 0%, rgba(43, 10, 59, 0.98) 48%, rgba(47, 9, 58, 0.98) 100%);
+    linear-gradient(90deg, rgba(3, 54, 79, 0.96) 0%, rgba(6, 32, 52, 0.98) 48%, rgba(4, 22, 38, 0.98) 100%);
 
   border-bottom: 1px solid rgba(216, 183, 106, 0.18);
   backdrop-filter: blur(14px);
 }
 
+/* 로고 링크 */
 .logoLink {
   display: flex;
   align-items: center;
@@ -79,6 +101,7 @@
   z-index: 5;
 }
 
+/* 로고 이미지 */
 .logo {
   width: 12vw;
   max-width: 350px;
@@ -87,7 +110,9 @@
   display: block;
 }
 
-/* 메뉴를 브라우저 화면 기준 정중앙 고정 */
+/* PC 메뉴 기준 영역
+   - 화면 정중앙 기준으로 고정
+   - 로고/전화번호 폭과 상관없이 메뉴가 중앙에 위치 */
 .menuArea {
   position: absolute;
   left: 50%;
@@ -100,7 +125,9 @@
   z-index: 3;
 }
 
-/* 상위 메뉴: 메뉴 개수만큼 동일 칸 분배 */
+/* PC 1차 메뉴 목록
+   - --pc-menu-count 값만큼 동일한 칸 생성
+   - 하위메뉴와 같은 grid 구조를 사용해서 위치를 맞춤 */
 .itemBox {
   display: grid;
   grid-template-columns: repeat(var(--pc-menu-count), 1fr);
@@ -114,6 +141,7 @@
   gap: 0;
 }
 
+/* 각 PC 메뉴 칸 */
 .navItem {
   width: 100%;
   height: 100%;
@@ -123,6 +151,7 @@
   justify-content: center;
 }
 
+/* PC 메뉴 링크 */
 .navLink,
 .consultLink {
   position: relative;
@@ -138,6 +167,7 @@
   transition: color 0.25s ease;
 }
 
+/* PC 메뉴 hover 밑줄 */
 .navLink::after {
   content: "";
   position: absolute;
@@ -152,15 +182,19 @@
   transition: width 0.25s ease;
 }
 
+/* PC 메뉴 hover 색상 */
 .navLink:hover {
   color: var(--brand-gold);
 }
 
+/* PC 메뉴 hover 밑줄 활성화 */
 .navLink:hover::after {
   width: 100%;
 }
 
-/* 전화번호: 오른쪽 3번째 grid 칸에 고정 */
+/* PC 전화번호 버튼
+   - 오른쪽 3번째 grid 칸에 고정
+   - 메뉴 absolute 영역보다 위 레이어에 둬서 겹침 방지 */
 .phoneNumber {
   grid-column: 3;
   justify-self: end;
@@ -186,11 +220,13 @@
   transition: color 0.25s ease, transform 0.25s ease;
 }
 
+/* 전화번호 hover */
 .phoneNumber:hover {
   color: var(--brand-gold);
   transform: translateY(-1px);
 }
 
+/* PC 드롭다운 전체 패널 */
 .dropdownContainer {
   position: absolute;
   top: 100%;
@@ -218,6 +254,7 @@
   transition: opacity 0.22s ease, visibility 0.22s ease, transform 0.22s ease;
 }
 
+/* PC 드롭다운 열린 상태 */
 .headerWrapper:hover .dropdownContainer,
 .dropdownOpen .dropdownContainer {
   opacity: 1;
@@ -226,7 +263,9 @@
   transform: translateY(0);
 }
 
-/* 하위 메뉴: 상위 메뉴와 같은 grid 칸 사용 */
+/* PC 드롭다운 내부 컬럼
+   - 상위 메뉴와 같은 --pc-menu-count grid 사용
+   - 각 하위 메뉴가 상위 메뉴 바로 아래에 오도록 맞춤 */
 .dropdownInner {
   width: var(--pc-menu-width);
   margin: -0.5vw auto 0;
@@ -243,6 +282,7 @@
   position: relative;
 }
 
+/* PC 드롭다운 메뉴 그룹 */
 .dropdownGroup {
   width: 100%;
   min-height: auto;
@@ -256,6 +296,7 @@
   justify-content: center;
 }
 
+/* PC 하위 메뉴 목록 */
 .dropdownList {
   display: flex;
   flex-direction: column;
@@ -263,6 +304,7 @@
   gap: 0.72vw;
 }
 
+/* PC 하위 메뉴 링크 */
 .dropdownItem {
   display: inline-flex;
   width: fit-content;
@@ -283,10 +325,12 @@
   transition: color 0.2s ease;
 }
 
+/* PC 하위 메뉴 hover */
 .dropdownItem:hover {
   color: #00799f;
 }
 
+/* 모바일 전용 클래스 기본값 */
 .mobileHeader,
 .mobileRight,
 .mobileIconBtn,
@@ -296,6 +340,10 @@
   box-sizing: border-box;
 }
 
+/* =========================
+   PC 보정 스타일 1
+   - 901px ~ 1400px 노트북/작은 PC 대응
+========================= */
 @media (min-width: 901px) and (max-width: 1400px) {
   :root {
     --pc-menu-width: min(760px, 55vw);
@@ -317,6 +365,10 @@
   }
 }
 
+/* =========================
+   PC 보정 스타일 2
+   - 901px ~ 1280px 좁은 PC 대응
+========================= */
 @media (min-width: 901px) and (max-width: 1280px) {
   :root {
     --pc-menu-width: min(760px, 60vw);
@@ -332,6 +384,9 @@
   }
 }
 
+/* =========================
+   모바일 스타일
+========================= */
 @media (max-width: 900px) {
   .gifBanner {
     position: fixed;
