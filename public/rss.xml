@@ -3,27 +3,34 @@
 <channel>
 
 <title>청주 한양립스 | 청주 한양립스 더 벨루체</title>
-
 <link>https://godeok-sujainhouse.co.kr/</link>
-
 <description>
-청주 한양립스 | 청주 한양립스 더 벨루체 | 청주시 상당구 지북동 247번지 일원 | 949세대 | 사업안내 | 분양안내 | 입지환경 | 단지안내 | 타입안내 | E-모델하우스 | 관심고객등록
+청주 한양립스 | 청주 한양립스 더 벨루체 | 청주시 상당구 지북동 247번지 일원 | 949세대 | 브랜드소개 | 사업안내 | 입지환경 | 단지안내 | 분양안내 | 타입안내 | 홍보센터
 </description>
-
 <language>ko-KR</language>
+<atom:link href="https://godeok-sujainhouse.co.kr/rss.xml" rel="self" type="application/rss+xml"/>
 
-<atom:link
-href="https://godeok-sujainhouse.co.kr/rss.xml"
-rel="self"
-type="application/rss+xml"/>
+<item>
+<title>브랜드소개</title>
+<link>https://godeok-sujainhouse.co.kr/Brand/intro</link>
+<guid>https://godeok-sujainhouse.co.kr/Brand/intro</guid>
+<description><![CDATA[청주 한양립스 더 벨루체와 한양건설의 브랜드 주거 가치를 확인하세요.]]></description>
+<pubDate>Fri, 26 Jun 2026 09:00:00 +0900</pubDate>
+</item>
+
+<item>
+<title>홍보영상</title>
+<link>https://godeok-sujainhouse.co.kr/Brand/video</link>
+<guid>https://godeok-sujainhouse.co.kr/Brand/video</guid>
+<description><![CDATA[청주 한양립스 더 벨루체의 브랜드와 단지 가치를 영상으로 확인하세요.]]></description>
+<pubDate>Fri, 26 Jun 2026 09:00:00 +0900</pubDate>
+</item>
 
 <item>
 <title>사업안내</title>
 <link>https://godeok-sujainhouse.co.kr/BusinessGuide/intro</link>
 <guid>https://godeok-sujainhouse.co.kr/BusinessGuide/intro</guid>
-<description><![CDATA[
-청주시 상당구 지북동 247번지 일원에 계획된 청주 한양립스 더 벨루체 949세대 사업개요와 브랜드 프리미엄을 확인하세요.
-]]></description>
+<description><![CDATA[청주시 상당구 지북동 247번지 일원에 계획된 청주 한양립스 더 벨루체 949세대 사업개요를 확인하세요.]]></description>
 <pubDate>Fri, 26 Jun 2026 09:00:00 +0900</pubDate>
 </item>
 
@@ -31,29 +38,7 @@ type="application/rss+xml"/>
 <title>분양일정</title>
 <link>https://godeok-sujainhouse.co.kr/BusinessGuide/plan</link>
 <guid>https://godeok-sujainhouse.co.kr/BusinessGuide/plan</guid>
-<description><![CDATA[
-청주 한양립스 특별공급, 일반공급, 당첨자 발표, 서류접수 및 정당계약 등 주요 분양 일정을 확인하세요.
-]]></description>
-<pubDate>Fri, 26 Jun 2026 09:00:00 +0900</pubDate>
-</item>
-
-<item>
-<title>마감자재리스트</title>
-<link>https://godeok-sujainhouse.co.kr/BusinessGuide/documents</link>
-<guid>https://godeok-sujainhouse.co.kr/BusinessGuide/documents</guid>
-<description><![CDATA[
-청주 한양립스 더 벨루체 마감자재리스트, 타입별 확인 사항과 계약 관련 내용을 확인하세요.
-]]></description>
-<pubDate>Fri, 26 Jun 2026 09:00:00 +0900</pubDate>
-</item>
-
-<item>
-<title>입주자 모집공고</title>
-<link>https://godeok-sujainhouse.co.kr/SalesInfo/announcement</link>
-<guid>https://godeok-sujainhouse.co.kr/SalesInfo/announcement</guid>
-<description><![CDATA[
-청주 한양립스 입주자 모집공고, 949세대 공급 대상, 청약 자격, 당첨자 발표 및 계약 절차를 확인하세요.
-]]></description>
+<description><![CDATA[청주 한양립스 분양 일정, 청약 일정, 당첨자 발표와 계약 일정을 확인하세요.]]></description>
 <pubDate>Fri, 26 Jun 2026 09:00:00 +0900</pubDate>
 </item>
 
@@ -61,9 +46,7 @@ type="application/rss+xml"/>
 <title>입지안내</title>
 <link>https://godeok-sujainhouse.co.kr/LocationEnvironment/intro</link>
 <guid>https://godeok-sujainhouse.co.kr/LocationEnvironment/intro</guid>
-<description><![CDATA[
-청주 상당구 지북동 생활권, 교통환경, 생활 인프라와 모델하우스 상담 정보를 확인하세요.
-]]></description>
+<description><![CDATA[청주 상당구 지북동 생활권, 교통환경, 생활 인프라와 주거 가치를 확인하세요.]]></description>
 <pubDate>Fri, 26 Jun 2026 09:00:00 +0900</pubDate>
 </item>
 
@@ -71,9 +54,7 @@ type="application/rss+xml"/>
 <title>프리미엄</title>
 <link>https://godeok-sujainhouse.co.kr/LocationEnvironment/primium</link>
 <guid>https://godeok-sujainhouse.co.kr/LocationEnvironment/primium</guid>
-<description><![CDATA[
-청주 한양립스 더 벨루체의 생활 인프라, 브랜드 설계와 분양 프리미엄을 확인하세요.
-]]></description>
+<description><![CDATA[청주 한양립스 더 벨루체의 생활 인프라, 브랜드 설계와 분양 프리미엄을 확인하세요.]]></description>
 <pubDate>Fri, 26 Jun 2026 09:00:00 +0900</pubDate>
 </item>
 
@@ -81,9 +62,7 @@ type="application/rss+xml"/>
 <title>단지배치도</title>
 <link>https://godeok-sujainhouse.co.kr/ComplexGuide/intro</link>
 <guid>https://godeok-sujainhouse.co.kr/ComplexGuide/intro</guid>
-<description><![CDATA[
-청주 한양립스 단지 배치, 조경 계획, 커뮤니티와 생활 동선을 확인하세요.
-]]></description>
+<description><![CDATA[청주 한양립스 단지 배치, 조경 계획, 커뮤니티와 생활 동선을 확인하세요.]]></description>
 <pubDate>Fri, 26 Jun 2026 09:00:00 +0900</pubDate>
 </item>
 
@@ -91,9 +70,7 @@ type="application/rss+xml"/>
 <title>호수배치도</title>
 <link>https://godeok-sujainhouse.co.kr/ComplexGuide/detailintro</link>
 <guid>https://godeok-sujainhouse.co.kr/ComplexGuide/detailintro</guid>
-<description><![CDATA[
-청주 한양립스 동·호수 배치와 세대 위치, 단지 내 배치 흐름을 확인하세요.
-]]></description>
+<description><![CDATA[청주 한양립스 동·호수 배치와 세대 위치, 단지 내 배치 흐름을 확인하세요.]]></description>
 <pubDate>Fri, 26 Jun 2026 09:00:00 +0900</pubDate>
 </item>
 
@@ -101,69 +78,79 @@ type="application/rss+xml"/>
 <title>커뮤니티</title>
 <link>https://godeok-sujainhouse.co.kr/ComplexGuide/community</link>
 <guid>https://godeok-sujainhouse.co.kr/ComplexGuide/community</guid>
-<description><![CDATA[
-청주 한양립스 커뮤니티 시설과 입주민 중심의 생활 공간, 단지 내 주거 가치를 확인하세요.
-]]></description>
+<description><![CDATA[청주 한양립스 커뮤니티 시설과 입주민 중심의 생활 공간을 확인하세요.]]></description>
 <pubDate>Fri, 26 Jun 2026 09:00:00 +0900</pubDate>
 </item>
 
 <item>
-<title>59A㎡</title>
+<title>입주자 모집공고</title>
+<link>https://godeok-sujainhouse.co.kr/SalesInfo/announcement</link>
+<guid>https://godeok-sujainhouse.co.kr/SalesInfo/announcement</guid>
+<description><![CDATA[청주 한양립스 입주자 모집공고, 949세대 공급 대상, 청약 자격과 계약 절차를 확인하세요.]]></description>
+<pubDate>Fri, 26 Jun 2026 09:00:00 +0900</pubDate>
+</item>
+
+<item>
+<title>마감자재리스트</title>
+<link>https://godeok-sujainhouse.co.kr/BusinessGuide/documents</link>
+<guid>https://godeok-sujainhouse.co.kr/BusinessGuide/documents</guid>
+<description><![CDATA[청주 한양립스 더 벨루체 마감자재리스트와 타입별 확인 사항을 확인하세요.]]></description>
+<pubDate>Fri, 26 Jun 2026 09:00:00 +0900</pubDate>
+</item>
+
+<item>
+<title>서류안내</title>
+<link>https://godeok-sujainhouse.co.kr/SalesInfo/guide</link>
+<guid>https://godeok-sujainhouse.co.kr/SalesInfo/guide</guid>
+<description><![CDATA[청주 한양립스 청약, 계약, 자격 확인과 제출서류 안내를 확인하세요.]]></description>
+<pubDate>Fri, 26 Jun 2026 09:00:00 +0900</pubDate>
+</item>
+
+<item>
+<title>59A</title>
 <link>https://godeok-sujainhouse.co.kr/FloorPlan/59A</link>
 <guid>https://godeok-sujainhouse.co.kr/FloorPlan/59A</guid>
-<description><![CDATA[
-청주 한양립스 59A㎡ 평면도와 실거주 중심의 공간 구성을 확인하세요.
-]]></description>
+<description><![CDATA[청주 한양립스 59A 타입 평면도와 공간 구성을 확인하세요.]]></description>
 <pubDate>Fri, 26 Jun 2026 09:00:00 +0900</pubDate>
 </item>
 
 <item>
-<title>59B㎡</title>
+<title>59B</title>
 <link>https://godeok-sujainhouse.co.kr/FloorPlan/59B</link>
 <guid>https://godeok-sujainhouse.co.kr/FloorPlan/59B</guid>
-<description><![CDATA[
-청주 한양립스 59B㎡ 평면도와 타입별 공간 활용, 생활 동선을 확인하세요.
-]]></description>
+<description><![CDATA[청주 한양립스 59B 타입 평면도와 생활 동선을 확인하세요.]]></description>
 <pubDate>Fri, 26 Jun 2026 09:00:00 +0900</pubDate>
 </item>
 
 <item>
-<title>75A㎡</title>
+<title>75A</title>
 <link>https://godeok-sujainhouse.co.kr/FloorPlan/84A</link>
 <guid>https://godeok-sujainhouse.co.kr/FloorPlan/84A</guid>
-<description><![CDATA[
-청주 한양립스 75A㎡ 평면도와 실용적인 공간 설계, 타입별 주거 구성을 확인하세요.
-]]></description>
+<description><![CDATA[청주 한양립스 75A 타입 평면도와 공간 활용을 확인하세요.]]></description>
 <pubDate>Fri, 26 Jun 2026 09:00:00 +0900</pubDate>
 </item>
 
 <item>
-<title>75B㎡</title>
+<title>75B</title>
 <link>https://godeok-sujainhouse.co.kr/FloorPlan/84B</link>
 <guid>https://godeok-sujainhouse.co.kr/FloorPlan/84B</guid>
-<description><![CDATA[
-청주 한양립스 75B㎡ 평면도와 타입별 공간 활용, 생활 동선을 확인하세요.
-]]></description>
+<description><![CDATA[청주 한양립스 75B 타입 평면도와 생활 동선을 확인하세요.]]></description>
 <pubDate>Fri, 26 Jun 2026 09:00:00 +0900</pubDate>
 </item>
 
 <item>
-<title>84A㎡</title>
+<title>84A</title>
 <link>https://godeok-sujainhouse.co.kr/FloorPlan/114A</link>
 <guid>https://godeok-sujainhouse.co.kr/FloorPlan/114A</guid>
-<description><![CDATA[
-청주 한양립스 84A㎡ 평면도와 여유로운 실내 구성, 주거 동선을 확인하세요.
-]]></description>
+<description><![CDATA[청주 한양립스 84A 타입 평면도와 여유로운 실내 구성을 확인하세요.]]></description>
 <pubDate>Fri, 26 Jun 2026 09:00:00 +0900</pubDate>
 </item>
 
 <item>
-<title>84B㎡</title>
+<title>84B</title>
 <link>https://godeok-sujainhouse.co.kr/FloorPlan/114B</link>
 <guid>https://godeok-sujainhouse.co.kr/FloorPlan/114B</guid>
-<description><![CDATA[
-청주 한양립스 84B㎡ 평면도와 수납 계획, 생활 동선을 확인하세요.
-]]></description>
+<description><![CDATA[청주 한양립스 84B 타입 평면도와 수납 계획을 확인하세요.]]></description>
 <pubDate>Fri, 26 Jun 2026 09:00:00 +0900</pubDate>
 </item>
 
@@ -171,9 +158,7 @@ type="application/rss+xml"/>
 <title>E-모델하우스</title>
 <link>https://godeok-sujainhouse.co.kr/FloorPlan/Emodel</link>
 <guid>https://godeok-sujainhouse.co.kr/FloorPlan/Emodel</guid>
-<description><![CDATA[
-청주 한양립스 E-모델하우스를 통해 59㎡·75㎡·84㎡ 세대 구조, 실내 공간 구성과 타입별 평면을 확인하세요.
-]]></description>
+<description><![CDATA[청주 한양립스 E-모델하우스를 통해 59㎡·75㎡·84㎡ 타입 구조를 확인하세요.]]></description>
 <pubDate>Fri, 26 Jun 2026 09:00:00 +0900</pubDate>
 </item>
 
@@ -181,9 +166,7 @@ type="application/rss+xml"/>
 <title>관심고객등록</title>
 <link>https://godeok-sujainhouse.co.kr/Promotion/Customer</link>
 <guid>https://godeok-sujainhouse.co.kr/Promotion/Customer</guid>
-<description><![CDATA[
-청주 한양립스 관심고객등록 후 분양 일정, 청약 정보와 모델하우스 방문예약 소식을 받아보세요.
-]]></description>
+<description><![CDATA[청주 한양립스 관심고객등록 후 분양 일정, 청약 정보와 모델하우스 방문예약 안내를 받아보세요.]]></description>
 <pubDate>Fri, 26 Jun 2026 09:00:00 +0900</pubDate>
 </item>
 

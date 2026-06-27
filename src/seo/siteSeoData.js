@@ -47,20 +47,11 @@ export const seoNavigation = [
     ],
   },
   {
-    name: "사업개요",
+    name: "사업안내",
     path: "/BusinessGuide/intro",
     children: [
       { name: "사업안내", path: "/BusinessGuide/intro" },
       { name: "분양일정", path: "/BusinessGuide/plan" },
-    ],
-  },
-  {
-    name: "분양안내",
-    path: "/SalesInfo/announcement",
-    children: [
-      { name: "입주자 모집공고", path: "/SalesInfo/announcement" },
-      { name: "마감자재리스트", path: "/BusinessGuide/documents" },
-      { name: "서류안내", path: "/SalesInfo/guide" },
     ],
   },
   {
@@ -75,9 +66,18 @@ export const seoNavigation = [
     name: "단지안내",
     path: "/ComplexGuide/intro",
     children: [
-      { name: "단지 배치도", path: "/ComplexGuide/intro" },
-      { name: "호수 배치도", path: "/ComplexGuide/detailintro" },
+      { name: "단지배치도", path: "/ComplexGuide/intro" },
+      { name: "호수배치도", path: "/ComplexGuide/detailintro" },
       { name: "커뮤니티", path: "/ComplexGuide/community" },
+    ],
+  },
+  {
+    name: "분양안내",
+    path: "/SalesInfo/announcement",
+    children: [
+      { name: "입주자 모집공고", path: "/SalesInfo/announcement" },
+      { name: "마감자재리스트", path: "/BusinessGuide/documents" },
+      { name: "서류안내", path: "/SalesInfo/guide" },
     ],
   },
   {
@@ -147,10 +147,10 @@ export const seoPages = {
   }),
   businessIntro: page({
     path: "/BusinessGuide/intro",
-    title: "사업개요 | 청주 한양립스",
+    title: "사업안내 | 청주 한양립스",
     description:
       "청주 한양립스 사업개요 안내입니다. 청주시 상당구 지북동 247번지 일원, 아파트 11개동 지하 3층~지상 29층, 총 949세대 규모의 청주 한양립스 더 벨루체 정보를 확인하세요.",
-    menu: "사업개요",
+    menu: "사업안내",
     image: "/img/og/business.jpg",
     priority: 0.9,
   }),
@@ -159,7 +159,7 @@ export const seoPages = {
     title: "분양일정 | 청주 한양립스",
     description:
       "청주 한양립스 분양일정 안내입니다. 특별공급, 일반공급, 당첨자 발표, 서류접수와 정당계약 등 주요 청약 일정을 확인하세요.",
-    menu: "사업개요",
+    menu: "사업안내",
   }),
   salesGuide: page({
     path: "/BusinessGuide/documents",
@@ -215,7 +215,7 @@ export const seoPages = {
   }),
   complexIntro: page({
     path: "/ComplexGuide/intro",
-    title: "단지 배치도 | 청주 한양립스",
+    title: "단지배치도 | 청주 한양립스",
     description:
       "청주 한양립스 단지 배치도 안내입니다. 동선, 조망, 생활 편의와 쾌적성을 고려한 단지 구성과 배치 계획을 확인하세요.",
     menu: "단지안내",
@@ -224,7 +224,7 @@ export const seoPages = {
   }),
   complexDetail: page({
     path: "/ComplexGuide/detailintro",
-    title: "호수 배치도 | 청주 한양립스",
+    title: "호수배치도 | 청주 한양립스",
     description:
       "청주 한양립스 호수 배치도 안내입니다. 동·호수 구성과 단지 내 위치 정보를 통해 세대별 배치 흐름을 확인하세요.",
     menu: "단지안내",

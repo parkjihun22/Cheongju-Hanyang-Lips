@@ -16,103 +16,67 @@ import InterestPopup from "../../components/InterestPopup/InterestPopup";
 const T = {
   siteName: "청주 한양립스",
 
-  brand: "브랜드소개",
-  intro: "브랜드",
-  brandVideo: "홍보영상",
-
-  business: "사업개요",
-  businessIntro: "사업안내",
-  salesSchedule: "분양일정",
-
-  sales: "분양안내",
-  supply: "공급안내",
-  notice: "모집공고안내",
-
-  location: "입지환경",
-  locationIntro: "입지안내",
-  premium: "프리미엄",
-
-  complex: "단지안내",
-  layout: "단지 배치도",
-  unitLayout: "호수 배치도",
-  community: "커뮤니티",
-
-  unit: "세대안내",
-  emodel: "E-모델하우스",
-  interior: "인테리어",
-
-  promo: "홍보센터",
-  customer: "관심고객등록",
-
   phoneConsult: "전화상담",
-
   mobileMenu: "모바일 메뉴 열기",
   popupOpen: "관심고객 등록 팝업 열기",
-
   mainMenu: "주요 메뉴",
-
   logoAlt: "청주 한양립스 로고",
-
   bannerAlt: "청주 한양립스 방문예약 안내 배너",
 };
 
 const menuArray = [
   {
-    title: T.brand,
+    title: "브랜드소개",
     subMenu: [
-      { subTitle: T.intro, subUrl: "/Brand/intro" },
-      { subTitle: T.brandVideo, subUrl: "/Brand/video" },
+      { subTitle: "브랜드소개", subUrl: "/Brand/intro" },
+      { subTitle: "홍보영상", subUrl: "/Brand/video" },
     ],
   },
   {
-    title: T.business,
+    title: "사업안내",
     subMenu: [
-      { subTitle: T.businessIntro, subUrl: "/BusinessGuide/intro" },
-      { subTitle: T.salesSchedule, subUrl: "/BusinessGuide/plan" },
+      { subTitle: "사업안내", subUrl: "/BusinessGuide/intro" },
+      { subTitle: "분양일정", subUrl: "/BusinessGuide/plan" },
     ],
   },
   {
-    title: T.sales,
+    title: "입지환경",
     subMenu: [
-      { subTitle: T.supply, subUrl: "/BusinessGuide/documents" },
-      { subTitle: T.notice, subUrl: "/SalesInfo/announcement" },
+      { subTitle: "입지안내", subUrl: "/LocationEnvironment/intro" },
+      { subTitle: "프리미엄", subUrl: "/LocationEnvironment/primium" },
     ],
   },
   {
-    title: T.location,
+    title: "단지안내",
     subMenu: [
-      { subTitle: T.locationIntro, subUrl: "/LocationEnvironment/intro" },
-      { subTitle: T.premium, subUrl: "/LocationEnvironment/primium" },
+      { subTitle: "단지배치도", subUrl: "/ComplexGuide/intro" },
+      { subTitle: "호수배치도", subUrl: "/ComplexGuide/detailintro" },
+      { subTitle: "커뮤니티", subUrl: "/ComplexGuide/community" },
     ],
   },
   {
-    title: T.complex,
+    title: "분양안내",
     subMenu: [
-      { subTitle: T.layout, subUrl: "/ComplexGuide/intro" },
-      { subTitle: T.unitLayout, subUrl: "/ComplexGuide/detailintro" },
-      { subTitle: T.community, subUrl: "/ComplexGuide/community" },
+      { subTitle: "입주자 모집공고", subUrl: "/SalesInfo/announcement" },
+      { subTitle: "마감자재리스트", subUrl: "/BusinessGuide/documents" },
+      { subTitle: "서류안내", subUrl: "/SalesInfo/guide" },
     ],
   },
   {
-    title: T.unit,
+    title: "타입안내",
     subMenu: [
-      { subTitle: "84A\u33a1", subUrl: "/FloorPlan/59A" },
-      { subTitle: "84C\u33a1", subUrl: "/FloorPlan/59B" },
-      { subTitle: "101\u33a1", subUrl: "/FloorPlan/84A" },
-      { subTitle: T.emodel, subUrl: "/FloorPlan/Emodel" },
+      { subTitle: "59A", subUrl: "/FloorPlan/59A" },
+      { subTitle: "59B", subUrl: "/FloorPlan/59B" },
+      { subTitle: "75A", subUrl: "/FloorPlan/84A" },
+      { subTitle: "75B", subUrl: "/FloorPlan/84B" },
+      { subTitle: "84A", subUrl: "/FloorPlan/114A" },
+      { subTitle: "84B", subUrl: "/FloorPlan/114B" },
+      { subTitle: "E-모델하우스", subUrl: "/FloorPlan/Emodel" },
     ],
   },
   {
-    title: T.interior,
-    subMenu: [
-      { subTitle: "84A\u33a1", subUrl: "/Interior/59A" },
-      { subTitle: "84C\u33a1", subUrl: "/Interior/84A" },
-      { subTitle: "101\u33a1", subUrl: "/Interior/84B" },
-    ],
-  },
-  {
-    title: T.promo,
-    subMenu: [{ subTitle: T.customer, subUrl: "/Promotion/Customer" }],
+    title: "홍보센터",
+    subMenu: [{ subTitle: "관심고객등록", subUrl: "/Promotion/Customer" }],
   },
 ];
 
