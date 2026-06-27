@@ -7,41 +7,28 @@ import MenuBar from "../../components/MenuBar/MenuBar";
 import Footer from "../../components/Footer/Footer";
 import Bener from "../../components/Bener/Bener";
 import FixIcon from "../../components/FixIcon/FixIcon";
+import EmodelInline from "../../components/EmodelInline/EmodelInline";
+
+const menuContents = [
+  { title: "59A", url: "/FloorPlan/59A" },
+  { title: "59B", url: "/FloorPlan/59B" },
+  { title: "75A", url: "/FloorPlan/84A" },
+  { title: "75B", url: "/FloorPlan/84B" },
+  { title: "84A", url: "/FloorPlan/114A" },
+  { title: "84B", url: "/FloorPlan/114B" },
+  { title: "E-모델하우스", url: "/FloorPlan/Emodel" },
+];
 
 const Emodel = () => {
-  const menuContents = [
-    { title: "84A㎡", url: "/FloorPlan/59A" },
-    { title: "84C㎡", url: "/FloorPlan/59B" },
-    { title: "101㎡", url: "/FloorPlan/84A" },
-    { title: "E-모델하우스", url: "/FloorPlan/Emodel" },
-  ];
-
-  const typeTabs = [
-    { title: "84A㎡", key: "84A㎡" },
-    { title: "84C㎡", key: "84C㎡" },
-    { title: "101㎡", key: "101㎡" },
-  ];
-
-  const vrUrls = {
-    "84A㎡": "https://xn--289apcxu78q5pay10eghb4a107h3gx0d900a0h0a.com/vr/84a.html",
-    "84C㎡": "https://xn--289apcxu78q5pay10eghb4a107h3gx0d900a0h0a.com/vr/84c.html",
-    "101㎡": "https://xn--289apcxu78q5pay10eghb4a107h3gx0d900a0h0a.com/vr/101.html",  
-    // "84B": "https://www.prugio.com/hb/2025/onecluster/vr/84b.html",
-  };
-
-
-  const [selectedType, setSelectedType] = useState("84A㎡");
-  const { pathname } = useLocation();
   const [isScroll, setIsScroll] = useState(false);
+  const { pathname } = useLocation();
 
   useEffect(() => {
     window.scrollTo(0, 0);
   }, [pathname]);
 
   useEffect(() => {
-    const handleScroll = () => {
-      setIsScroll(window.scrollY > 0);
-    };
+    const handleScroll = () => setIsScroll(window.scrollY > 0);
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
@@ -50,38 +37,16 @@ const Emodel = () => {
     <div className={styles.container}>
       <Header isChanged={isScroll} />
       <FixIcon />
+
       <Bener title="E-모델하우스" />
       <MenuBar contents={menuContents} />
 
       <div className={styles.textBox}>
-        <div>평택 고덕국제화계획지구의 주거 공간을 온라인으로 확인</div>
-        <div>청주 한양립스 E모델하우스를 살펴보세요.</div>
+        <div>청주 한양립스 더 벨루체 타입별 공간을 온라인으로 확인</div>
+        <div>59㎡·75㎡·84㎡ 타입의 구조와 생활 동선을 살펴보세요.</div>
       </div>
 
-      <div className={styles.tabMenu}>
-        {typeTabs.map((tab, idx) => (
-          <button
-            key={idx}
-            onClick={() => setSelectedType(tab.key)}
-            className={`${styles.tabButton} ${selectedType === tab.key ? styles.activeTab : ""}`}
-          >
-            {tab.title}
-          </button>
-        ))}
-      </div>
-
-      <div className={styles.vrSection}>
-        <p className={styles.vrDescription}>
-          화면의 아무 곳이나 클릭하시면 해당 VR을 감상하실 수 있습니다.
-        </p>
-        <iframe
-          className={styles.vrIframe}
-          src={vrUrls[selectedType]}
-          title={`${selectedType} VR`}
-          allowFullScreen
-          frameBorder="0"
-        />
-      </div>
+      <EmodelInline />
 
       <Footer />
     </div>

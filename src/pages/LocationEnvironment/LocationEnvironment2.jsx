@@ -43,16 +43,16 @@ const LocationEnvironment2 = () => {
       <MenuBar contents={locationMenu} />
 
       <div className={styles.textBox}>
-        <div>평택 고덕국제화계획지구 위에</div>
+        <div>청주시 상당구 지북동 247번지 일원에</div>
         <div>청주 한양립스의 프리미엄을 누리세요.</div>
-        <div>입지, 교통, 생활 인프라가 어우러진 브랜드 주거 가치를 제안합니다.</div>
+        <div>949세대 규모, 한양건설 시공, 59·75·84㎡ 타입의 브랜드 주거 가치를 제안합니다.</div>
       </div>
 
       <figure className={styles.locationMapFrame}>
         <img
           src={page1}
           className={styles.image3}
-          alt="청주 한양립스 프리미엄 및 고덕국제화계획지구 주거가치 이미지"
+          alt="청주 한양립스 프리미엄 및 지북동 주거가치 이미지"
         />
       </figure>
 

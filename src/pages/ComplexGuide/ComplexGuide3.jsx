@@ -53,7 +53,7 @@ const ComplexGuide3 = () => {
 <Bener title="커뮤니티" />
 <MenuBar contents={menuContents} />
 <div className={styles.textBox}>
-  <div>평택 고덕국제화계획지구의 품격 있는 생활 가치</div>
+  <div>청주 지북동 생활권의 품격 있는 생활 가치</div>
   <div>청주 한양립스 커뮤니티를 확인하세요.</div>
 </div>
 

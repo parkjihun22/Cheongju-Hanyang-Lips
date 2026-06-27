@@ -25,9 +25,9 @@ const locationMenu = [
 const locationSections = [
   {
     img: section2Image1,
-    titleText: "평택 고덕국제신도시 중심 입지<br />미래가치를 품은 주거환경",
+    titleText: "청주 지북동 생활권 입지<br />미래가치를 품은 주거환경",
     contentText:
-      "평택 고덕국제신도시 중심 생활권<br />생활 인프라와 미래가치를 함께 누리는 브랜드 아파트",
+      "청주시 상당구 지북동 247번지 일원<br />생활 인프라와 미래가치를 함께 살피는 브랜드 아파트",
   },
   {
     img: section2Image2,
@@ -37,21 +37,21 @@ const locationSections = [
   },
   {
     img: section2Image3,
-    titleText: "삼성 평택캠퍼스 직주근접<br />편리한 광역 교통",
+    titleText: "청주 주요 생활권 연결<br />편리한 교통 환경",
     contentText:
-      "삼성 평택캠퍼스와 가까운 직주근접 입지<br />주요 도로망과 광역 교통망 이용이 편리한 생활 환경",
+      "지북동 일대 주요 도로망과 생활권 연결<br />출퇴근과 일상 이동을 고려한 주거 환경",
   },
   {
     img: section2Image4,
-    titleText: "교육과 생활을 모두 갖춘<br />고덕 생활권",
+    titleText: "교육과 생활을 모두 갖춘<br />청주 생활권",
     contentText:
       "교육시설과 다양한 생활 편의시설을 가까이 누리는 환경<br />가족 중심의 쾌적한 주거 라이프를 제공합니다.",
   },
   {
     img: section2Image5,
-    titleText: "수자인 · 풍경채 브랜드<br />프리미엄 아파트",
+    titleText: "한양건설 브랜드<br />프리미엄 아파트",
     contentText:
-      "차별화된 단지 설계와 브랜드 프리미엄을 갖춘 주거 공간<br />평택 고덕국제신도시를 대표하는 브랜드 아파트",
+      "차별화된 단지 설계와 브랜드 프리미엄을 갖춘 주거 공간<br />청주 한양립스 더 벨루체 브랜드 아파트",
   },
   {
     img: section2Image6,
@@ -113,7 +113,7 @@ const LocationEnvironment1 = () => {
       <MenuBar contents={locationMenu} />
 
       <div className={styles.textBox}>
-        <div>평택 고덕국제화계획지구 생활권에서</div>
+        <div>청주시 상당구 지북동 생활권에서</div>
         <div>삶의 가치가 높아지는 곳</div>
         <div>청주 한양립스가 새로운 주거 가치로 찾아옵니다.</div>
       </div>
@@ -122,7 +122,7 @@ const LocationEnvironment1 = () => {
         <img
           src={page1}
           className={styles.image2}
-          alt="청주 한양립스 입지환경과 고덕국제화계획지구 생활권 안내 이미지"
+          alt="청주 한양립스 입지환경과 지북동 생활권 안내 이미지"
         />
         <button
           type="button"
@@ -130,7 +130,7 @@ const LocationEnvironment1 = () => {
           onClick={() =>
             openZoom(
               page1,
-              "청주 한양립스 입지환경과 고덕국제화계획지구 생활권 안내 이미지"
+              "청주 한양립스 입지환경과 지북동 생활권 안내 이미지"
             )
           }
           aria-label="입지환경 이미지 크게 보기"

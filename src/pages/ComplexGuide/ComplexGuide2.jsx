@@ -54,7 +54,7 @@ const ComplexGuide1 = () => {
 <Bener title="호수 배치도" />
 <MenuBar contents={menuContents} />
 <div className={styles.textBox}>
-  <div>평택 고덕국제화계획지구의 프리미엄 주거 설계</div>
+  <div>청주 한양립스 더 벨루체의 프리미엄 주거 설계</div>
   <div>청주 한양립스 동·호수 배치를 확인하세요.</div>
 </div>
 

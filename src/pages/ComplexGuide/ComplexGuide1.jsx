@@ -53,8 +53,8 @@ const ComplexGuide1 = () => {
 <Bener title="단지 배치도" />
 <MenuBar contents={menuContents} />
 <div className={styles.textBox}>
-  <div>평택 고덕국제화계획지구가 제안하는 새로운 주거 공간</div>
-  <div>청주 한양립스, 프리미엄 단지 가치를 완성합니다.</div>
+  <div>청주 지북동 949세대가 제안하는 새로운 주거 공간</div>
+  <div>청주 한양립스 더 벨루체, 프리미엄 단지 가치를 완성합니다.</div>
 </div>
 
 <img

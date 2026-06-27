@@ -7,14 +7,14 @@ import Footer from "../../components/Footer/Footer";
 const samplePress = [
   {
     id: 1,
-    title: "평택 브레인시티 힐스테이트 분양 개시",
+    title: "청주 한양립스 더 벨루체 분양 안내",
     date: "2024.07.21",
-    summary: "분양 시작. 다양한 혜택 적용.",
+    summary: "청주 지북동 949세대 분양 정보와 모델하우스 방문예약 안내.",
     image: "/img/sample1.jpg",
   },
   {
     id: 2,
-    title: "브레인시티 신규 개발 소식",
+    title: "청주 지북동 주거 가치 안내",
     date: "2024.07.20",
     summary: "미래 가치와 개발계획 발표.",
     image: "/img/sample2.jpg",

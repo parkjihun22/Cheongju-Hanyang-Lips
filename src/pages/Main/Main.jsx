@@ -173,7 +173,7 @@ const Main = () => {
 
             <div className={styles.mainImageTextBox}>
               <p className={styles.heroEyebrow}>
-                평택 고덕국제신도시 브랜드 아파트
+                청주 한양립스 더 벨루체
               </p>
 
               <h1 className={styles.heroTitle}>
@@ -181,21 +181,21 @@ const Main = () => {
               </h1>
 
               <div className={styles.heroKeyword}>
-                삼성 평택캠퍼스 직주근접
+                청주 지북동 949세대
                 <br />
-                전용 84㎡ · 101㎡
+                59㎡ · 75㎡ · 84㎡ 타입
                 <br />
-                총 1,126세대 브랜드 대단지
+                한양건설 시공
               </div>
 
               <p className={styles.heroDesc}>
-                평택 고덕국제신도시 중심 생활권에서 만나는
+                청주시 상당구 지북동 247번지 일원에서 만나는
                 <br />
-                삼성 평택캠퍼스 직주근접 프리미엄과
+                한양립스 브랜드 프리미엄과
                 <br />
-                전용 84㎡·101㎡ 브랜드 설계를 갖춘
+                분양가 상담, 견본주택 방문예약까지
                 <br />
-                청주 한양립스
+                한 번에 확인하는 청주 한양립스
               </p>
 
             <button
@@ -273,7 +273,7 @@ const Main = () => {
 
               <div className={styles.mainImageTextBox1}>
                 <p className={styles.heroEyebrow1}>
-                  평택 고덕국제신도시 브랜드 아파트
+                  청주 한양립스 더 벨루체
                 </p>
 
                 <h1 className={styles.heroTitle1}>
@@ -281,21 +281,21 @@ const Main = () => {
                 </h1>
 
                 <div className={styles.heroKeyword1}>
-                  삼성 평택캠퍼스 직주근접
+                  청주 지북동 949세대
                   <br />
-                  전용 84㎡ · 101㎡
+                  59㎡ · 75㎡ · 84㎡ 타입
                   <br />
-                  총 1,126세대 브랜드 대단지
+                  한양건설 시공
                 </div>
 
                 <p className={styles.heroDesc1}>
-                  평택 고덕국제신도시 중심 생활권에서 만나는
+                  청주시 상당구 지북동 247번지 일원에서 만나는
                   <br />
-                  삼성 평택캠퍼스 직주근접 프리미엄과
+                  한양립스 브랜드 프리미엄과
                   <br />
-                  전용 84㎡·101㎡ 브랜드 설계를 갖춘
+                  분양가 상담, 견본주택 방문예약까지
                   <br />
-                  청주 한양립스
+                  한 번에 확인하는 청주 한양립스
                 </p>
 
             <button

@@ -24,35 +24,35 @@ const items = [
       <ul className={styles.detailList}>
         <li>
           <strong>사업명</strong>
-          <span>청주 한양립스</span>
+          <span>청주 지북동 동남지역주택조합 공동주택 신축 계획</span>
         </li>
         <li>
           <strong>대지위치</strong>
-          <span>경기도 평택시 고덕국제신도시 Abc-14BL · Abc-61BL</span>
+          <span>충청북도 청주시 상당구 지북동 247번지 일원</span>
         </li>
         <li>
           <strong>건축규모</strong>
-          <span>1단지 지하 2층~지상 25층 / 2단지 지하 2층~지상 23층</span>
+          <span>아파트 11개동 (지하 3층~지상 29층)</span>
         </li>
         <li>
           <strong>세대수</strong>
-          <span>총 1,126세대</span>
+          <span>총 949세대</span>
         </li>
         <li>
           <strong>세대정보</strong>
-          <span>전용 84㎡ · 101㎡ 중심의 브랜드 아파트</span>
+          <span>59㎡A · 59㎡B · 75㎡A · 75㎡B · 84㎡A · 84㎡B</span>
         </li>
         <li>
           <strong>입지환경</strong>
-          <span>평택 고덕국제신도시 생활권</span>
+          <span>청주시 상당구 지북동 생활권</span>
         </li>
         <li>
-          <strong>직주근접</strong>
-          <span>삼성 평택캠퍼스 인접 생활권</span>
+          <strong>용도</strong>
+          <span>공동주택(아파트) 및 근린생활시설</span>
         </li>
         <li>
-          <strong>브랜드</strong>
-          <span>수자인 · 풍경채</span>
+          <strong>건설사</strong>
+          <span>한양건설</span>
         </li>
       </ul>
     ),
@@ -71,7 +71,7 @@ const items = [
         <img
           src={mobileMap2}
           className={styles.mapImage}
-          alt="청주 한양립스 고덕국제신도시 생활권 지도"
+          alt="청주 한양립스 지북동 생활권 지도"
         />
       </div>
     ),
@@ -85,7 +85,7 @@ const items = [
         <div className={styles.premiumIntro}>
           <h3 className={styles.premiumTitle}>GREAT PREMIUM</h3>
           <p className={styles.premiumSubtitle}>
-            고덕국제신도시 생활 인프라와 미래가치를 누리는<br />
+            청주 지북동 생활 인프라와 949세대 가치를 누리는<br />
             청주 한양립스 프리미엄 라이프
           </p>
         </div>
@@ -100,39 +100,39 @@ function PremiumSlider() {
   const slides = [
     {
       img: slide1,
-      title: "평택 고덕국제신도시 중심 입지",
+      title: "청주 지북동 생활권 입지",
       desc:
-        "고덕국제신도시 핵심 생활권 입지<br/>생활·교육·교통 인프라를 가까이 누리는 주거환경<br/>청주 한양립스 브랜드 프리미엄",
+        "청주시 상당구 지북동 247번지 일원<br/>생활·교육·교통 인프라를 살피는 주거환경<br/>청주 한양립스 더 벨루체 브랜드 프리미엄",
     },
     {
       img: slide2,
-      title: "84㎡ · 101㎡ 브랜드 평면",
+      title: "59㎡ · 75㎡ · 84㎡ 타입 구성",
       desc:
-        "실수요 선호도가 높은 전용 84㎡·101㎡ 구성<br/>공간 활용과 생활 동선을 고려한 특화 설계<br/>가족 중심 라이프스타일을 담은 주거 공간",
+        "59A·59B·75A·75B·84A·84B 타입 구성<br/>공간 활용과 생활 동선을 고려한 설계<br/>가족 중심 라이프스타일을 담은 주거 공간",
     },
     {
       img: slide3,
-      title: "삼성 평택캠퍼스 직주근접",
+      title: "총 949세대 브랜드 단지",
       desc:
-        "삼성 평택캠퍼스와 가까운 직주근접 입지<br/>평택 주요 도로망과 광역 교통망 이용 편리<br/>출퇴근과 생활 편의성을 모두 갖춘 주거 환경",
+        "아파트 11개동, 지하 3층~지상 29층 규모<br/>공동주택과 근린생활시설이 함께 계획된 단지<br/>청주 한양립스 더 벨루체의 주거 가치",
     },
     {
       img: slide4,
       title: "생활·교육 인프라를 모두 누리다",
       desc:
-        "고덕국제신도시 생활권을 가까이 누리는 입지<br/>교육시설과 상업시설, 공원까지 편리한 생활환경<br/>쾌적한 신도시 라이프를 완성하는 브랜드 아파트",
+        "청주 생활권을 가까이 누리는 입지<br/>교육시설과 상업시설, 공원까지 살펴보는 생활환경<br/>쾌적한 일상을 완성하는 브랜드 아파트",
     },
     {
       img: slide5,
-      title: "수자인·풍경채 브랜드 프리미엄",
+      title: "한양건설 브랜드 프리미엄",
       desc:
-        "차별화된 단지 설계와 다양한 커뮤니티 시설<br/>입주민 중심의 편리한 주거 환경 제공<br/>고덕국제신도시를 대표하는 브랜드 아파트",
+        "한양건설이 시공하는 청주 한양립스<br/>입주민 중심의 편리한 주거 환경 제공<br/>청주 한양립스 더 벨루체 브랜드 아파트",
     },
     {
       img: slide6,
       title: "미래가치가 기대되는 주거 선택",
       desc:
-        "고덕국제신도시 개발과 함께 성장하는 미래가치<br/>삼성 평택캠퍼스 배후 주거단지 프리미엄<br/>실거주와 미래가치를 함께 갖춘 청주 한양립스",
+        "청주 지북동 일대의 주거 변화와 함께 보는 미래가치<br/>분양가 상담과 모델하우스 방문예약 안내<br/>실거주와 분양 정보를 함께 갖춘 청주 한양립스",
     },
   ];
   
@@ -223,7 +223,7 @@ export default function MobileOverviewSection() {
     <section className={styles.overviewSection}>
       {/* ─── 헤더 영역 ─── */}
       <header className={styles.overviewHeader}>
-        <div className={styles.preTitle}>HILLSTATE BUSINESS</div>
+        <div className={styles.preTitle}>CHEONGJU HANYANG LIPS</div>
         <div className={styles.line} />
         <h2 className={styles.mainTitle}>사업안내</h2>
       </header>

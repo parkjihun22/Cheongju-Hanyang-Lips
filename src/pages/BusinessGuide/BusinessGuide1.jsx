@@ -13,41 +13,43 @@ import tableImage from "../../assets/BusinessGuide/BusinessGuide1/tableImage.jpg
 
 
 const projectData = [
-  { label: "사업명", value: "청주 한양립스" },
+  { label: "현장명", value: "청주 한양립스 더 벨루체" },
+
+  { label: "사업명", value: "청주 지북동 동남지역주택조합 공동주택 신축 계획" },
 
   {
     label: "대지위치",
-    value: "경기도 평택시 고덕국제신도시 Abc-14BL · Abc-61BL",
+    value: "충청북도 청주시 상당구 지북동 247번지 일원",
   },
 
   {
-    label: "주택형",
-    value: "전용 84㎡ · 101㎡",
+    label: "규모",
+    value: "아파트 11개동 (지하 3층~지상 29층)",
+  },
+
+  {
+    label: "건축면적",
+    value: "6,784.3148㎡",
   },
 
   {
     label: "세대수",
-    value: "총 1,126세대",
+    value: "총 949세대",
   },
 
   {
-    label: "입지환경",
-    value: "평택 고덕국제신도시 중심 생활권",
+    label: "주택형",
+    value: "59㎡A · 59㎡B · 75㎡A · 75㎡B · 84㎡A · 84㎡B",
   },
 
   {
-    label: "교통환경",
-    value: "삼성 평택캠퍼스 직주근접 및 주요 도로망 이용 편리",
+    label: "용도",
+    value: "공동주택(아파트) 및 근린생활시설",
   },
 
   {
-    label: "생활인프라",
-    value: "교육·상업·공원 등 다양한 생활 인프라를 가까이 누리는 주거환경",
-  },
-
-  {
-    label: "브랜드",
-    value: "수자인 · 풍경채 브랜드 아파트",
+    label: "건설사",
+    value: "한양건설",
   },
 ];
 const BusinessGuide1 = () => {
@@ -88,8 +90,8 @@ const BusinessGuide1 = () => {
 
 <MenuBar contents={menuContents} />
 <div className={styles.textBox}>
-<div>평택 고덕국제화계획지구가 품은 새로운 주거 가치</div>
-<div>청주 한양립스, 브랜드 프리미엄을 완성합니다.</div>
+<div>청주시 상당구 지북동 247번지 일원에 계획된 949세대 주거 가치</div>
+<div>청주 한양립스 더 벨루체, 한양건설의 브랜드 프리미엄을 완성합니다.</div>
 </div>
 
 <img className={styles.img3} src={page1} alt="청주 한양립스 사업개요 이미지"/>

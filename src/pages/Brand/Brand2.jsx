@@ -48,7 +48,7 @@ const Brand2 = () => {
 <Bener title="홍보영상" />
 <MenuBar contents={menuContents} />
 <div className={`${styles.textBox} ${isTextVisible ? styles.active : ''}`}>
-  <div>평택 고덕국제화계획지구의 새로운 주거 프리미엄</div>
+  <div>청주 지북동 949세대 브랜드 주거 프리미엄</div>
   <div>청주 한양립스의 브랜드 가치를 영상으로 만나보세요.</div>
 </div>
 

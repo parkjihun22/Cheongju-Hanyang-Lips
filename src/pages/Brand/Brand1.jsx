@@ -54,14 +54,14 @@ const Brand1 = () => {
 <Bener title="브랜드 소개" />
 <MenuBar contents={menuContents} />
 <div className={`${styles.textBox} ${isTextVisible ? styles.active : ''}`}>
-  <div>평택 고덕국제화계획지구의 생활을 가까이</div>
-  <div>청주 한양립스, 새로운 주거 가치</div>
+  <div>청주시 상당구 지북동의 생활을 가까이</div>
+  <div>청주 한양립스 더 벨루체, 한양건설의 새로운 주거 가치</div>
 </div>
 
 <img
   className={`${styles.image} ${isImageVisible ? styles.visible : ''}`}
   src={page1}
-  alt="청주 한양립스 브랜드 소개 및 고덕국제화계획지구 주거 가치 이미지"
+  alt="청주 한양립스 브랜드 소개 및 지북동 주거 가치 이미지"
 />
             <Footer />
         </div>

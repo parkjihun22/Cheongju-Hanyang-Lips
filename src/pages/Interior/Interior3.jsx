@@ -57,7 +57,7 @@ const Interior3 = () => {
 			<MenuBar contents={menuContents} />
 
 			<div className={styles.textBox}>
-			<div>평택 고덕국제신도시의 새로운 주거 프리미엄</div>
+			<div>청주 한양립스 더 벨루체의 새로운 주거 프리미엄</div>
 			<div>청주 한양립스를 만나보세요.</div>
 			</div>
 

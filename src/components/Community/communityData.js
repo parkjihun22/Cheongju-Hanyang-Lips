@@ -8,7 +8,7 @@ export const communityData = {
   eyebrow: "COMMUNITY",
   title: "품격 있는 일상을 완성하는 단지 설계",
   description:
-    "청주 한양립스는 평택 고덕국제신도시의 입지에 걸맞은 단지 배치와 조경, 커뮤니티 시설을 통해 입주민의 일상과 휴식, 편의가 조화를 이루는 주거 공간을 제공합니다.",
+    "청주 한양립스 더 벨루체는 아파트 11개동, 총 949세대 규모에 맞춘 단지 배치, 조경, 커뮤니티 시설을 통해 입주민의 일상과 휴식, 편의가 조화를 이루는 주거 공간을 제안합니다.",
   backgroundImage: bgImage,
   banner: {
     image: bannerImage,
@@ -27,7 +27,7 @@ export const communityData = {
     {
       id: "complex-design",
       label: "단지 특화설계",
-      title: "수자인·풍경채 브랜드 특화 설계",
+      title: "한양건설 브랜드 특화 설계",
       description:
         "조경 공간과 휴게 공간, 보행 동선을 유기적으로 연결하여 입주민이 일상 속에서도 여유를 누릴 수 있도록 계획하였습니다.",
       image: designImage,

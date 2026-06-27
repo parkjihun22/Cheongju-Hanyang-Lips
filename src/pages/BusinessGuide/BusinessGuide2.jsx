@@ -11,7 +11,7 @@ import page1 from "../../assets/BusinessGuide/BusinessGuide2/calendar.jpg";
 const BusinessGuide2 = () => {
     const menuContents = [
       { title: "사업안내", url: "/BusinessGuide/intro" },
-      // { title: "분양일정", url: "/BusinessGuide/plan" },
+      { title: "분양일정", url: "/BusinessGuide/plan" },
       // { title: "공급안내", url: "/BusinessGuide/documents" }
     ];
 
@@ -53,8 +53,8 @@ const BusinessGuide2 = () => {
 <Bener title="분양일정" />
 <MenuBar contents={menuContents} />
 <div className={styles.textBox}>
-  <div>평택 고덕국제화계획지구의 새로운 주거 가치</div>
-  <div>청주 한양립스 분양일정을 확인하세요.</div>
+  <div>청주 한양립스 더 벨루체의 주요 분양 일정</div>
+  <div>청약, 당첨자 발표, 계약 등 필요한 일정을 확인하세요.</div>
 </div>
 
 <img

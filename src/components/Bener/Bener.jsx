@@ -41,28 +41,28 @@ export default Bener;
 
 const contents = (text, isLoaded) => {
   const normalizedText = text.replace(/\s/g, "");
-  const brandTitles = ["홍보영상", "브랜드소개", "고덕수자인풍경채"];
+  const brandTitles = ["홍보영상", "브랜드소개", "청주한양립스"];
   const businessTitles = [
     "사업개요",
     "사업안내",
     "분양일정",
-    "공급안내",
     "분양안내",
-    "청약안내",
-    "모집공고안내",
-    "인지세납부안내",
+    "입주자모집공고",
+    "마감자재리스트",
+    "서류안내",
   ];
   const locationTitles = ["입지환경", "입지안내", "프리미엄"];
   const complexTitles = ["단지안내", "단지배치도", "호수배치도", "커뮤니티"];
   const unitTitles = [
     "세대안내",
     "세대안내영상",
+    "타입안내",
+    "59A㎡평면도",
+    "59B㎡평면도",
+    "75A㎡평면도",
+    "75B㎡평면도",
     "84A㎡평면도",
-    "84C㎡평면도",
-    "101㎡평면도",
     "84B㎡평면도",
-    "114A㎡평면도",
-    "114B㎡평면도",
     "E모델하우스",
     "E-모델하우스",
   ];
@@ -72,13 +72,13 @@ const contents = (text, isLoaded) => {
     return (
       <>
         <div className={`${styles.text} ${isLoaded ? styles.showText : ''}`}>
-          평택 고덕국제신도시에서 만나는 청주 한양립스의 새로운 주거 가치.
+          청주에서 만나는 청주 한양립스 더 벨루체의 새로운 주거 가치.
         </div>
         <div className={`${styles.text} ${isLoaded ? styles.showText : ''}`}>
-          청주 한양립스, 수자인과 풍경채 브랜드 프리미엄을 함께 담은 아파트.
+          청주 한양립스, 한양립스 브랜드 프리미엄을 담은 주거 공간.
         </div>
         <div className={`${styles.text} ${isLoaded ? styles.showText : ''}`}>
-          교통·교육·생활 인프라와 미래가치를 갖춘 고덕국제신도시 주거 선택지.
+          교통·교육·생활 인프라와 분양 정보를 함께 확인하는 청주 주거 선택지.
         </div>
       </>
     );
@@ -86,13 +86,13 @@ const contents = (text, isLoaded) => {
     return (
       <>
         <div className={`${styles.text} ${isLoaded ? styles.showText : ''}`}>
-          평택 고덕국제신도시 생활권에 조성되는 청주 한양립스 사업 안내.
+          청주 한양립스 더 벨루체의 사업개요와 분양 안내.
         </div>
         <div className={`${styles.text} ${isLoaded ? styles.showText : ''}`}>
-          수자인과 풍경채 브랜드 가치가 더해진 실거주 중심의 주거 단지.
+          한양립스 브랜드 가치가 더해진 실거주 중심의 주거 공간.
         </div>
         <div className={`${styles.text} ${isLoaded ? styles.showText : ''}`}>
-          청약 정보부터 모집공고, 세대 구성, 인테리어까지 한눈에 확인하세요.
+          청약 정보부터 입주자 모집공고, 마감자재, 타입 구성까지 한눈에 확인하세요.
         </div>
         <div className={`${styles.text} ${isLoaded ? styles.showText : ''}`}>
           청주 한양립스
@@ -103,10 +103,10 @@ const contents = (text, isLoaded) => {
     return (
       <>
         <div className={`${styles.text} ${isLoaded ? styles.showText : ''}`}>
-          고덕국제신도시의 교통, 생활, 교육 인프라를 가까이 누리는 입지 프리미엄.
+          청주 생활권의 교통, 생활, 교육 인프라를 살펴보는 입지 프리미엄.
         </div>
         <div className={`${styles.text} ${isLoaded ? styles.showText : ''}`}>
-          삼성 평택캠퍼스 배후수요와 고덕국제신도시 개발가치를 기대할 수 있는 주거 환경.
+          모델하우스 상담으로 949세대 공급정보와 청약 일정을 확인할 수 있는 주거 환경.
         </div>
       </>
     );
@@ -120,7 +120,7 @@ const contents = (text, isLoaded) => {
           일상 속 여유를 더하는 조경, 커뮤니티, 주거 편의 설계를 확인하세요.
         </div>
         <div className={`${styles.text} ${isLoaded ? styles.showText : ''}`}>
-          청주 한양립스, 고덕국제신도시의 새로운 주거 기준을 제안합니다.
+          청주 한양립스 더 벨루체, 청주 주거 선택의 새로운 기준을 제안합니다.
         </div>
       </>
     );
