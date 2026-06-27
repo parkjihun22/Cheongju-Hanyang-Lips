@@ -48,8 +48,8 @@ const contents = (text, isLoaded) => {
     "분양일정",
     "분양안내",
     "입주자모집공고",
-    "마감자재리스트",
-    "서류안내",
+    "공급안내",
+    "계약서류안내",
   ];
   const locationTitles = ["입지환경", "입지안내", "프리미엄"];
   const complexTitles = ["단지안내", "단지배치도", "호수배치도", "커뮤니티"];

@@ -55,6 +55,7 @@ const projectData = [
 const BusinessGuide1 = () => {
   const menuContents = [
     { title: "사업안내", url: "/BusinessGuide/intro" },
+    { title: "분양일정", url: "/BusinessGuide/plan" },
   ];
 
   const [isScroll, setIsScroll] = useState(false);

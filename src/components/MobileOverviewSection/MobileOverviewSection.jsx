@@ -81,19 +81,20 @@ const items = [
     label: "프리미엄",
     content: (
       <>
-        {/* 프리미엄 섹션 상단 문단 */}
-        <div className={styles.premiumIntro}>
-          <h3 className={styles.premiumTitle}>GREAT PREMIUM</h3>
-          <p className={styles.premiumSubtitle}>
-            청주 지북동 생활 인프라와 949세대 가치를 누리는<br />
-            청주 한양립스 프리미엄 라이프
-          </p>
-        </div>
-        {/* 슬라이더 */}
-        <PremiumSlider />
-      </>
-    ),
-  },
+{/* 프리미엄 섹션 상단 문단 */}
+<div className={styles.premiumIntro}>
+  <h3 className={styles.premiumTitle}>GREAT PREMIUM</h3>
+  <p className={styles.premiumSubtitle}>
+    청주 지북동 생활 인프라와 949세대 브랜드 가치를 누리는<br />
+    청주 한양립스 더 벨루체 프리미엄 라이프
+  </p>
+</div>
+
+{/* 슬라이더 */}
+<PremiumSlider />
+</>
+),
+},
 ];
 
 function PremiumSlider() {
@@ -102,13 +103,13 @@ function PremiumSlider() {
       img: slide1,
       title: "청주 지북동 생활권 입지",
       desc:
-        "청주시 상당구 지북동 247번지 일원<br/>생활·교육·교통 인프라를 살피는 주거환경<br/>청주 한양립스 더 벨루체 브랜드 프리미엄",
+        "청주시 상당구 지북동 247번지 일원<br/>생활·교육·교통 인프라를 함께 누리는 주거환경<br/>청주 한양립스 더 벨루체 브랜드 프리미엄",
     },
     {
       img: slide2,
       title: "59㎡ · 75㎡ · 84㎡ 타입 구성",
       desc:
-        "59A·59B·75A·75B·84A·84B 타입 구성<br/>공간 활용과 생활 동선을 고려한 설계<br/>가족 중심 라이프스타일을 담은 주거 공간",
+        "59A·59B·75A·75B·84A·84B 타입 구성<br/>공간 활용과 생활 동선을 고려한 평면 설계<br/>가족 중심 라이프스타일을 담은 주거 공간",
     },
     {
       img: slide3,
@@ -120,22 +121,21 @@ function PremiumSlider() {
       img: slide4,
       title: "생활·교육 인프라를 모두 누리다",
       desc:
-        "청주 생활권을 가까이 누리는 입지<br/>교육시설과 상업시설, 공원까지 살펴보는 생활환경<br/>쾌적한 일상을 완성하는 브랜드 아파트",
+        "청주 생활권을 가까이 누리는 입지<br/>교육시설과 상업시설, 공원까지 이어지는 생활환경<br/>쾌적한 일상을 완성하는 브랜드 아파트",
     },
     {
       img: slide5,
       title: "한양건설 브랜드 프리미엄",
       desc:
-        "한양건설이 시공하는 청주 한양립스<br/>입주민 중심의 편리한 주거 환경 제공<br/>청주 한양립스 더 벨루체 브랜드 아파트",
+        "한양건설이 시공하는 청주 한양립스<br/>입주민 중심의 편리하고 품격 있는 주거 환경<br/>청주 한양립스 더 벨루체 브랜드 아파트",
     },
     {
       img: slide6,
       title: "미래가치가 기대되는 주거 선택",
       desc:
-        "청주 지북동 일대의 주거 변화와 함께 보는 미래가치<br/>분양가 상담과 모델하우스 방문예약 안내<br/>실거주와 분양 정보를 함께 갖춘 청주 한양립스",
+        "청주 지북동 일대의 주거 변화와 함께 보는 미래가치<br/>실거주와 투자가치를 함께 고려한 입지 환경<br/>청주 한양립스 더 벨루체의 새로운 주거 기준",
     },
   ];
-  
 
   const [current, setCurrent] = useState(0);
   const [touchStartX, setTouchStartX] = useState(null);

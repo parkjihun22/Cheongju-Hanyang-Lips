@@ -7,7 +7,7 @@ import MenuBar from "../../components/MenuBar/MenuBar";
 import Footer from "../../components/Footer/Footer";
 import Bener from "../../components/Bener/Bener";
 import FixIcon from "../../components/FixIcon/FixIcon";
-import page1 from "../../assets/FloorPlan/FloorPlan5/unit_84a.jpg";
+import page1 from "../../assets/FloorPlan/FloorPlan5/unit05.jpg";
 
 const menuContents = [
   { title: "59A", url: "/FloorPlan/59A" },

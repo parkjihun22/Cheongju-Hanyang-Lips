@@ -2,6 +2,7 @@ const salesInfoAnnouncementData = {
   menu: [
     { title: "공급안내", url: "/BusinessGuide/documents" },
     { title: "모집공고안내", url: "/SalesInfo/announcement" },
+    { title: "계약서류안내", url: "/SalesInfo/guide" },
   ],
 
   hero: {

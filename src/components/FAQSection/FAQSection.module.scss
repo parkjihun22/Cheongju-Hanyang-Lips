@@ -62,7 +62,7 @@
   padding: 2.4vw;
 
   /* 배경: 브랜드 네이비 패널로 FAQ의 시작점을 강하게 잡습니다. */
-  background: linear-gradient(145deg, #01496f, #061019);
+  background: linear-gradient(145deg, #352751, #061019);
 
   /* 모서리: 프로젝트 카드 규칙에 맞춰 8px 이하로 유지합니다. */
   border-radius: 8px;
@@ -282,7 +282,7 @@
   line-height: 1.45;
 
   /* 질문 색상: 브랜드 네이비로 신뢰감을 줍니다. */
-  color: #01496f;
+  color: #352751;
 
   /* 한국어 줄바꿈: 어색한 단어 분리를 줄입니다. */
   word-break: keep-all;
@@ -332,7 +332,7 @@
   font-size: 1vw;
 
   /* 아이콘 색상: 브랜드 네이비를 사용합니다. */
-  color: #01496f;
+  color: #352751;
 
   /* 아이콘 전환: 열림 상태의 색상 변화가 부드럽게 보이게 합니다. */
   transition: background 0.28s ease, color 0.28s ease, transform 0.28s ease;
@@ -341,7 +341,7 @@
 /* 활성 아이콘 */
 .faqItem.active .icon {
   /* 활성 배경: 열린 상태를 명확히 보여줍니다. */
-  background: #01496f;
+  background: #352751;
 
   /* 활성 색상: 네이비 배경 위에서 선명하게 보이게 합니다. */
   color: #fff;

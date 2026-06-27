@@ -27,7 +27,7 @@
   --mobile-header-height: 15vw;
 
   /* 브랜드 컬러: 헤더 전체에서 반복 사용하는 색상입니다. */
-  --brand-blue: #01496f;
+  --brand-blue: #352751;
   --brand-navy: #06243b;
   --brand-gold: #d4af37;
   --brand-white: #ffffff;
@@ -65,7 +65,7 @@
   height: var(--top-banner-height);
 
   /* 배경: GIF 좌우 여백이 생겨도 브랜드 네이비로 이어지게 합니다. */
-  background: linear-gradient(90deg, #014b70 0%, #06324d 52%, #041f34 100%);
+  background: linear-gradient(90deg, #352751 0%, #352751 52%, #352751 100%);
 
   /* 정렬: GIF 이미지를 배너 중앙에 배치합니다. */
   display: flex;
@@ -140,7 +140,7 @@
 /* PC/모바일 공통 로고 기본값 */
 .logo {
   /* PC 로고 크기: 값을 키우면 로고가 커지고, 줄이면 작아집니다. */
-  width: 15vw;
+  width: 12vw;
 
   /* PC 로고 최대/최소 폭: 화면 크기에 따라 너무 커지거나 작아지는 것을 막습니다. */
   max-width: 350px;
@@ -570,8 +570,7 @@
 
   .logo {
     /* 모바일 로고 크기: 값을 키우면 로고가 커지고, 줄이면 작아집니다. */
-    margin-top: -0.5vw;
-    width: 30vw;
+    width: 33vw;
 
     /* 모바일에서는 PC의 최소/최대 폭 제한을 해제합니다. */
     min-width: unset;

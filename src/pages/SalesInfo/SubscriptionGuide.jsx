@@ -17,9 +17,10 @@ const ComplexGuide1 = () => {
   const menuContents = [
     { title: "공급안내", url: "/BusinessGuide/documents" },
     { title: "모집공고안내", url: "/SalesInfo/announcement" },
+    { title: "계약서류안내", url: "/SalesInfo/guide" },
     // { title: "인지세납부안내", url: "/SalesInfo/stampTax" },
     // { title: "청약방법안내", url: "/SalesInfo/SubscriptionGuide" },
-    // { title: "청약안내문", url: "/SalesInfo/guide" },
+
   ];
 
   const [isScroll, setIsScroll] = useState(false);
@@ -50,7 +51,7 @@ const ComplexGuide1 = () => {
 <Header isChanged={isScroll} />
       <FixIcon />
 
-      <Bener title="청약안내" />
+      <Bener title="서류안내" />
 
       <MenuBar contents={menuContents} />
 <div className={styles.textBox}>

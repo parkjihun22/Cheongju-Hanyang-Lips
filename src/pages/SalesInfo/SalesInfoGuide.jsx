@@ -1,39 +1,40 @@
 import React, { useEffect, useState } from "react";
 import { useLocation } from "react-router-dom";
 import styles from "./SalesInfo.module.scss";
+
 import Header from "../../components/Header/Header";
 import MenuBar from "../../components/MenuBar/MenuBar";
 import Footer from "../../components/Footer/Footer";
 import Bener from "../../components/Bener/Bener";
 import FixIcon from "../../components/FixIcon/FixIcon";
-// import page1 from "../../assets/SalesInfo/guide/page1.jpg"
 
-import Ready from "../../components/Ready/Ready";
-
+import page1 from "../../assets/SalesInfo/guide/page1.jpg";
 
 const ComplexGuide1 = () => {
   const menuContents = [
     { title: "공급안내", url: "/BusinessGuide/documents" },
     { title: "모집공고안내", url: "/SalesInfo/announcement" },
+    { title: "계약서류안내", url: "/SalesInfo/guide" },
     // { title: "인지세납부안내", url: "/SalesInfo/stampTax" },
     // { title: "청약방법안내", url: "/SalesInfo/SubscriptionGuide" },
-    // { title: "청약안내문", url: "/SalesInfo/guide" },
   ];
 
   const [isScroll, setIsScroll] = useState(false);
-  const { pathname } = useLocation(); // 현재 경로를 가져옴
 
+  // 이미지 애니메이션용
+  const [isImage2Loaded, setIsImage2Loaded] = useState(false);
+
+  const { pathname } = useLocation();
+
+  // 페이지 이동 시 최상단으로
   useEffect(() => {
-    window.scrollTo(0, 0); // 페이지가 로드될 때 스크롤을 최상단으로 이동
-  }, [pathname]); // pathname이 변경될 때마다 실행
+    window.scrollTo(0, 0);
+  }, [pathname]);
 
+  // 헤더 스크롤 감지
   useEffect(() => {
     const handleScroll = () => {
-      if (window.scrollY > 0) {
-        setIsScroll(true);
-      } else {
-        setIsScroll(false);
-      }
+      setIsScroll(window.scrollY > 0);
     };
 
     window.addEventListener("scroll", handleScroll);
@@ -43,35 +44,39 @@ const ComplexGuide1 = () => {
     };
   }, []);
 
+  // 이미지 로드 완료
+  const handleImageLoad = () => {
+    setIsImage2Loaded(true);
+  };
+
   return (
     <div className={styles.container}>
-<Header isChanged={isScroll} />
-<FixIcon />
+      <Header isChanged={isScroll} />
 
-<Bener title="분양안내" />
+      <FixIcon />
 
-<MenuBar contents={menuContents} />
-<div className={styles.textBox}>
-  <div>인터넷 청약 절차를 확인하세요</div>
-  <div>청주 한양립스 청약안내</div>
-</div>
+      <Bener title="분양안내" />
 
-      {/* 이미지에 애니메이션 효과 추가 */}
-      {/* <img
-        className={`${styles.image2} ${isImage2Loaded ? styles.showImage2 : ''}`}
+      <MenuBar contents={menuContents} />
+
+      <div className={styles.textBox}>
+        <div>인터넷 청약 절차를 확인하세요</div>
+        <div>청주 한양립스 서류안내</div>
+      </div>
+
+      <img
+        className={`${styles.image2} ${
+          isImage2Loaded ? styles.showImage2 : ""
+        }`}
         src={page1}
-        alt="청주 한양립스 청약안내 이미지"
+        alt="청주 한양립스 서류안내 이미지"
         onLoad={handleImageLoad}
-      /> */}
-
-      <Ready/>
-
-
+      />
 
       <div className={styles.commonBox2}>
         <div className={styles.notice}>
           ※ 상기 이미지는 고객의 이해를 돕기 위한 것으로 성공적인 청약을 위해
-          도움을 드리고있습니다.
+          도움을 드리고 있습니다.
         </div>
       </div>
 

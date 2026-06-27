@@ -2,8 +2,8 @@ import unit01 from "../../assets/UnitplanBox/unit01.jpg";
 import unit02 from "../../assets/UnitplanBox/unit02.jpg";
 import unit03 from "../../assets/UnitplanBox/unit03.jpg";
 import unit04 from "../../assets/UnitplanBox/unit04.jpg";
-import unit84A from "../../assets/FloorPlan/FloorPlan5/unit_84a.jpg";
-import unit84B from "../../assets/FloorPlan/FloorPlan6/unit_84d.jpg";
+import unit05 from "../../assets/FloorPlan/FloorPlan5/unit05.jpg";
+import unit06 from "../../assets/FloorPlan/FloorPlan6/unit06.jpg";
 
 export const unitPlanData = {
   eyebrow: "UNIT PLAN",
@@ -52,7 +52,7 @@ export const unitPlanData = {
       type: "84A",
       name: "84A㎡",
       summary: "여유로운 실내 구성과 생활 동선을 갖춘 84A 타입 평면입니다.",
-      image: unit84A,
+      image: unit05,
       alt: "청주 한양립스 84A㎡ 평면도",
       link: "/FloorPlan/114A",
     },
@@ -61,7 +61,7 @@ export const unitPlanData = {
       type: "84B",
       name: "84B㎡",
       summary: "84㎡ 타입의 수납 계획과 공간 구성을 확인할 수 있는 84B 타입입니다.",
-      image: unit84B,
+      image: unit06,
       alt: "청주 한양립스 84B㎡ 평면도",
       link: "/FloorPlan/114B",
     },

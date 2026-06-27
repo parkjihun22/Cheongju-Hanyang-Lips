@@ -10,12 +10,11 @@ import page1 from "../../assets/BusinessGuide/documents/contract.jpg";
 
 const BusinessGuide2 = () => {
 	const menuContents = [
-		{ title: "입주자 모집공고", url: "/SalesInfo/announcement" },
-		{ title: "마감자재리스트", url: "/BusinessGuide/documents" },
-		{ title: "서류안내", url: "/SalesInfo/guide" },
+		{ title: "공급안내", url: "/BusinessGuide/documents" },
+		{ title: "모집공고안내", url: "/SalesInfo/announcement" },
+		{ title: "계약서류안내", url: "/SalesInfo/guide" },
 		// { title: "인지세납부안내", url: "/SalesInfo/stampTax" },
 		// { title: "청약방법안내", url: "/SalesInfo/SubscriptionGuide" },
-		// { title: "청약안내문", url: "/SalesInfo/guide" },
 	];
 	const [isScroll, setIsScroll] = useState(false);
 	const [isImageVisible, setIsImageVisible] = useState(false); // isImageVisible 상태 추가
@@ -63,7 +62,7 @@ const BusinessGuide2 = () => {
 <Header isChanged={isScroll} />
 <FixIcon />
 
-<Bener title="마감자재리스트" />
+<Bener title="공급안내" />
 <MenuBar contents={menuContents} />
 <div className={styles.textBox}>
   <div>청주 한양립스 더 벨루체의 마감자재 정보를 확인하세요.</div>
@@ -73,7 +72,7 @@ const BusinessGuide2 = () => {
 <img
   className={`${styles.image4} ${isImageVisible ? styles.visible : ''}`}
   src={page1}
-  alt="청주 한양립스 마감자재리스트 안내 이미지"
+  alt="청주 한양립스 공급안내 안내 이미지"
 />
 
 

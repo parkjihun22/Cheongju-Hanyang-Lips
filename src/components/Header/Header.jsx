@@ -57,20 +57,20 @@ const menuArray = [
   {
     title: "분양안내",
     subMenu: [
+      { subTitle: "공급안내", subUrl: "/BusinessGuide/documents" },
       { subTitle: "입주자 모집공고", subUrl: "/SalesInfo/announcement" },
-      { subTitle: "마감자재리스트", subUrl: "/BusinessGuide/documents" },
-      { subTitle: "서류안내", subUrl: "/SalesInfo/guide" },
+      { subTitle: "계약서류안내", subUrl: "/SalesInfo/guide" },
     ],
   },
   {
     title: "타입안내",
     subMenu: [
-      { subTitle: "59A", subUrl: "/FloorPlan/59A" },
-      { subTitle: "59B", subUrl: "/FloorPlan/59B" },
-      { subTitle: "75A", subUrl: "/FloorPlan/84A" },
-      { subTitle: "75B", subUrl: "/FloorPlan/84B" },
-      { subTitle: "84A", subUrl: "/FloorPlan/114A" },
-      { subTitle: "84B", subUrl: "/FloorPlan/114B" },
+      { subTitle: "59㎡A ", subUrl: "/FloorPlan/59A" },
+      { subTitle: "59㎡B", subUrl: "/FloorPlan/59B" },
+      { subTitle: "75㎡A", subUrl: "/FloorPlan/84A" },
+      { subTitle: "75㎡B", subUrl: "/FloorPlan/84B" },
+      { subTitle: "84㎡A", subUrl: "/FloorPlan/114A" },
+      { subTitle: "84㎡B", subUrl: "/FloorPlan/114B" },
       { subTitle: "E-모델하우스", subUrl: "/FloorPlan/Emodel" },
     ],
   },

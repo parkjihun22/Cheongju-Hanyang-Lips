@@ -33,7 +33,7 @@
     div:nth-of-type(2) {
         margin-top: 0.5vw;
         font-weight: 800;
-        color: #01496f;
+        color: #352751;
     }
 }
 
@@ -125,9 +125,9 @@
       padding: 10px 24px;
       font-size: 1vw;
       font-weight: 600;
-      color: #01496f;
+      color: #352751;
       background-color: #ffffff;
-      border: 2px solid #01496f;
+      border: 2px solid #352751;
       border-radius: 1px; /* 더 둥근 버튼 */
       text-transform: uppercase;
       transition: all 0.3s ease;
@@ -136,7 +136,7 @@
       letter-spacing: 0.5px; /* 글자 간격 조정 */
     
       &:hover {
-        background-color: #01496f;
+        background-color: #352751;
         color: #fff;
         transform: translateY(-2px);
         box-shadow: 0 4px 8px rgba(9, 80, 82, 0.2); /* 호버 시 그림자 효과 */
@@ -148,9 +148,9 @@
       }
     
       &.active {
-        background-color: #01496f;
+        background-color: #352751;
         color: #fff;
-        border-color: #01496f;
+        border-color: #352751;
       }
     }
   
@@ -186,7 +186,7 @@
     font-size: 2.3vw;
     margin-top: 0.5vw;
     font-weight: 800;
-    color: #01496f;
+    color: #352751;
 }
 
 /* 비디오 컨테이너 스타일 */
@@ -229,7 +229,7 @@
   
   /* 활성화된 버튼(선택된 단지)에만 적용할 스타일 */
   .active {
-    background-color: #01496f !important; /* 강조 색상 (네이비) */
+    background-color: #352751 !important; /* 강조 색상 (네이비) */
     color: #ffffff !important;
   }
 
@@ -412,7 +412,7 @@
         font-size: 2.6vw;
         line-height: 1.25;
         font-weight: 900;
-        color: #01496f;
+        color: #352751;
     }
 
     .textBox div:nth-of-type(3) {
