@@ -125,7 +125,7 @@ const page = ({
 export const seoPages = {
   home: page({
     path: "/",
-    title: "청주 한양립스 | 청주 한양립스 더 벨루체",
+    title: "청주 한양립스",
     description: siteSeo.defaultDescription,
     menu: "홈",
     priority: 1,
