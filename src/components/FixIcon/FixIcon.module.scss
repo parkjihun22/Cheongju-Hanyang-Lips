@@ -45,7 +45,7 @@
     padding: 2vw 0;
 
     /* PC 원형 버튼 배경입니다. */
-    background-color: #352751;
+    background-color: #01496f;
     border-radius: 50%;
 
     /* PC 원형 버튼 문구 스타일입니다. */
@@ -60,7 +60,7 @@
   &:hover {
     /* PC 플로팅 버튼 hover 확대 정도입니다. */
     padding: 1vw;
-    background-color: #352751;
+    background-color: #01496f;
     border-radius: 50%;
     transform: scale(1.1);
     transition: transform 0.4s ease;

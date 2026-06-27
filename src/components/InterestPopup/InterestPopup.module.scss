@@ -98,7 +98,7 @@
     margin-top: 6px;
     border: none;
     border-radius: 12px;
-    background: linear-gradient(135deg, #06162d 0%, #352751 100%);
+    background: linear-gradient(135deg, #06162d 0%, #01496f 100%);
     color: #ffffff;
     font-size: 17px;
     font-weight: 800;
@@ -155,7 +155,7 @@
   transition: all 0.25s ease;
 
   &:hover {
-    background: #352751;
+    background: #01496f;
     transform: rotate(90deg);
   }
 }
